@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.overlay-image {
+  max-width: 100%;
+  position: "absolute";
+  top: "30px";
+  left: "0";
+  width: "100%";
+  height: "100%";
+  /* object-fit: "contain"; */
+}
+
+.overlay-buttons {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.left-button,
+.right-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}

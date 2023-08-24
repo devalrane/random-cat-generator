@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Cat Image</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: none;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="">Meow</button>
+    <img src="{{ cat_url }}" alt="Random Cat">
+</body>
+</html>
